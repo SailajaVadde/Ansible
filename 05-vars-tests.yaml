@@ -9,9 +9,8 @@
    vars: # task level variables
     Course: "Devps"
   ansible.builtin.debug:
-   msg: "Hi we are lerning {{Course}} from trainer {{Trainer}} and duration of course is {{Duration}}" 
--name: Print  information
-   vars: # task level variables
-    Course: "Devps"
+    msg: "Hi we are lerning {{Course}} from trainer {{Trainer}} and duration of course is {{Duration}}" 
+
+- name: Print  information
   ansible.builtin.debug:
    msg: "Hi we are lerning {{Course}} from trainer {{Trainer}} and duration of course is {{Duration}}" 
